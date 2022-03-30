@@ -1,0 +1,8 @@
+h1{
+    
+    border: solid black 2px;
+    border-radius: 20px;
+    outline: solid green 3px;
+    padding-left: 50px;
+    width: -20px;
+}
