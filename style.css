@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+width: 100%;
+height: 75px;
+ background-color:#854d27; 
+line-height: 75px;
+padding: 0px 100px;
+position: fixed;
+z-index: 1;
+}
+
+.logo{
+color:rgba(119, 238, 119, 0.39) ;
+font-size: 30px;
+text-transform: uppercase;
+padding: 0px ,80px;
+
+}
+label .logo{
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px;
+
+}
+nav ul li a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: #c0d96f;
+}
+nav ul li a active{
+    color: #c0d96f;
+}
+
+
+ /* table,th,td{ 
+    width: 40px;
+    margin-left:15%;
+    font-size: 40px;
+    border: 2px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+    border-color: #854d27;
+    border-style: double 5px;
+    }*/
+.table,th,td{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 50%;
+    text-align: center;
+    margin-left:20% ;
+    border-color: #854d27;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+
+
+}
+
+.four{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: crimson;
+}
+.two{
+color: darkolivegreen;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: 100;
+text-align: center;
+text-decoration: dotted;
+
+}
+
+
+ 
